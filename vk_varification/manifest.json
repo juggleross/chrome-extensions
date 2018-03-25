@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "VK varification",
+    "description": "This extension helps you add varification bage on your vk page",
+    "version": "1.0",
+    "content_scripts": [
+      {
+        "matches": ["https://vk.com/*"],
+        "js": ["background.js", "content.js"]
+      }
+    ],
+    "browser_action": {
+        "default_icon": "varification_badge.png",
+        "default_title": "VK varification"
+    },
+    "permissions": [
+      // "https://vk.com/*",
+      "activeTab",
+      "tabs"
+    ],
+
+	"icons": { "16": "varification_badge.png",
+             "48": "varification_badge.png",
+             "128": "varification_badge.png" },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}

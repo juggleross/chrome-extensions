@@ -14,7 +14,7 @@
         "default_title": "VK varification"
     },
     "permissions": [
-      // "https://vk.com/*",
+      "https://vk.com/*",
       "activeTab",
       "tabs"
     ],

@@ -1,0 +1,21 @@
+{
+  "name": "Word selection api request",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "ct.png",
+    "default_popup": "popup.html",
+    "default_title": "A popup"
+  }
+}

@@ -25,3 +25,19 @@ chrome.storage.sync.get(['key'], function(result) {
 });
 
 ```
+
+## and you can use update event for it
+
+```js
+
+chrome.storage.onChanged.addListener(function(changes, namespace) {
+  for (key in changes) {
+    var storageChange = changes[key];
+    if(storageChange.newValue !== undefined && storageChange.newValue.length > 0 ) {
+      console.log('Value currently is ' + storageChange.newValue);
+      main_page.innerHTML = storageChange.newValue;
+    }
+  }
+});
+
+```

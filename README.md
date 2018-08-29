@@ -9,4 +9,4 @@ chrome extension video course #1
 
 chrome extension video course #2
 
-  https://www.youtube.com/watch?v=jyhu42WSC6Y&index=2&list=PLYxzS__5yYQlWil-vQ-y7NR902ovyq1Xi&t=0s
+  https://www.youtube.com/watch?v=0kOCPfTf6vY&index=23&list=PLYxzS__5yYQlWil-vQ-y7NR902ovyq1Xi

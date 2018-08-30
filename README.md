@@ -13,4 +13,4 @@ chrome extension video course #2
   
 list of chrome extensions samples from google
 
-  https://chromium.googlesource.com/chromium/src/+/master/chrome/common/extensions/docs/examples
+  https://developer.chrome.com/extensions/samples

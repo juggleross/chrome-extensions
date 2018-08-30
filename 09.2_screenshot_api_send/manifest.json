@@ -1,0 +1,15 @@
+{
+	"name": "Screenshot Extension",
+	"version": "1.0",
+	"description": "A simple screenshot extension",
+	"background": {
+		"persistent": false,
+		"scripts": ["background.js"]
+	},
+	"browser_action": {
+		"default_icon": "camera.png",
+		"default_title": "Screenshot"
+	},
+	"permissions": ["tabs", "<all_urls>", "activeTab", "alarms"],
+	"manifest_version": 2
+}
